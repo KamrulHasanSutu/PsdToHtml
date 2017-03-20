@@ -1,0 +1,24 @@
+color:#73AD21
+#4CAF50;}   /* Green */
+#008CBA;}    /* Blue */
+#f44336;}    /* Red */
+#e7e7e7; }    /* Gray */
+#555555;}     /* Black */
+lightblue
+#4CAF50
+555555#gray
+#F1F1F1 #haslka gray
+##ccc another gray
+
+primary: darken(#428bca, 6.5%); // #337ab7
+success: #5cb85c;
+info:    #5bc0de;
+warning: #f0ad4e;
+danger:  #d9534f;
+
+
+
+
+https://bd.linkedin.com/in/aliasgorpavel
+
+https://bd.linkedin.com/in/kamrul-hasan-069260125
