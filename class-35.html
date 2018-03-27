@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Class-35</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        
+    </head>
+    <body>
+       
+       <div class="section-padding">
+           <div class="section-absolute-bg"></div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6">
+                       <div class="boxed-content">
+                           <h2>Welcome to our website</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque iste, optio esse et, officiis veritatis repellat magni laudantium voluptatum sunt iure enim eveniet omnis officia debitis id ullam ab!</p>
+                           <a href="" class="bordered-btn">Read more</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+       </div> 
+          
+       <div class="section-padding absolute-bg-left">
+           <div class="section-absolute-bg absolute-bg-2"></div>
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-6 col-md-offset-6">
+                       <div class="boxed-content">
+                           <h2>Welcome to our website</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque iste, optio esse et, officiis veritatis repellat magni laudantium voluptatum sunt iure enim eveniet omnis officia debitis id ullam ab!</p>
+                           <a href="" class="bordered-btn">Read more</a>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+       </div>
+       
+        
+        
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-absolute-bg{background-image: url(../img/photo-1.jpg)}
+.absolute-bg-2{background-image: url(../img/photo-2.jpg)}
+
+
+
+.section-padding {
+  background: #222931;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.8;
+  position: relative;
+  padding: 80px 0;
+}
+h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 23px;
+}
+.bordered-btn {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 4px 25px;
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.boxed-content {
+  position: relative;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+.boxed-content::before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  height: 100px;
+  width: 1px;
+  top: 0;
+  left: 0;
+}
+.section-absolute-bg {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  right: 0;
+  top: 0;
+  background-color: #ddd;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+}
+.absolute-bg-left .section-absolute-bg {
+  right: auto;
+  left: 0;
+}
+.absolute-bg-left .boxed-content {
+  padding-right: 0;
+  margin-left: 50px;
+}
+.section-absolute-bg:after {
+  background: #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  z-index: -1;
+  opacity: 0.3;
+}
+.section-absolute-bg:before {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 36%;
+  left: 0;
+  content: "";
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #222931;
+  transform: rotate(90deg);
+}
