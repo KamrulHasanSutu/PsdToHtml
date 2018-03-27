@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="homepage-slides">
+            <div class="single-slide-item">
+                <div class="slide-text-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <div class="slide-text">
+                                    <h2>Appointments</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora consequatur doloremque quae perferendis sit ullam!</p>
+                                    <a href="" class="boxed-btn">Book an appointment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+
+style.css
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.single-slide-item{background-image: url(../img/slide-1.jpg)}
+
+
+
+.single-slide-item {
+  height: 550px;
+  margin-bottom: 200px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+}
+.slide-text-area {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.slide-text {
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 150px;
+  background: #1784C7;
+  font-size: 20px;
+  line-height: 1.7;
+  position: relative;
+}
+.slide-text h2 {
+  font-family: r;
+  font-size: 50px;
+}
+.boxed btn {
+  color: #fff;
+}
+.boxed-btn {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  background: #333;
+  padding: 15px 30px;
+  display: inline-block;
+}
+.slide-text:before {
+  position: absolute;
+  background: #1784C7;
+  top: 0;
+  left: -1000%;
+  content: "";
+  width: 1000%;
+  height: 100%;
+}
+.slide-text:after {
+  position: absolute;
+  content: "";
+  background: #1784C7;
+  height: 20px;
+  width: 20px;
+  top: 50px;
+  right: -8px;
+  transform: rotate(45deg);
+}
