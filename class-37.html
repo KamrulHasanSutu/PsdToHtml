@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title></title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <h2 class="section-title">Our Team</h2>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="single-team-member">
+                                    <div class="team-bg"></div>
+                                    <div class="borded-content">
+                                       <div class="team-title"> <h3>Jhon Doe</h3></div>
+                                        <p>web developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-team-member">
+                                    <div class="team-bg team-bg-2"></div>
+                                    <div class="borded-content">
+                                        <div class="team-title"> <h3>Jhon Doe</h3></div>
+                                        <p>web developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="single-team-member">
+                                    <div class="team-bg team-bg-3"></div>
+                                    <div class="borded-content">
+                                        <div class="team-title"> <h3>Jhon Doe</h3></div>
+                                        <p>web developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+style.css
+--------------
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.team-bg{background-image: url(../img/43.jpg)}
+.team-bg-2{background-image: url(../img/44.jpg)}
+.team-bg-3{background-image: url(../img/45.jpg)}
+
+
+
+.section-title:before {
+  position: absolute;
+  height: 1px;
+  width: 70%;
+  /*! left: 0; */
+  top: -22px;
+  content: "";
+  background: #000;
+  right: 0;
+}
+.team-bg {
+  height: 270px;
+  background-size: cover;
+  background-position: center top;
+  margin-bottom: 50px;
+}
+.borded-content {
+  border: 1px solid #333;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.borded-content h3 {
+  font-size: 20px;
+  background: #fff;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+
+.team-title {
+  margin: -11px;
+}
+
+
+.section-title {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 37px;
+	text-align: right;
+	font-weight: 700;
+	transform: rotate(270deg);
+	margin-top: 125px;
+	width: 300px;
+	/* margin-bottom: 24px; */
+	margin-left: -38px;
+}
+.col-md-4:nth-child(2) .single-team-member {
+  margin-top: 100px;
+}
+.section-padding {
+  padding: 80px 0;
+}
