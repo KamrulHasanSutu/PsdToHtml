@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>class-38</title>
+
+        <link href="assets/css/owl.carousel.css" rel="stylesheet">
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo.png" alt="">Recepie <span>Cook anything</span></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 text-right">
+                        <p class="right-contact-box">
+                            <i class="fa fa-map-marker"></i>
+                            Address line one <br/>
+                            Address two, city , zip.
+                        </p>
+                        <p class="right-contact-box">
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:123456784">+880 0101010232</a>, <br/>
+                            <a href="tel:123456784">+880 0101010232</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="homepage-slides">
+            <div class="single-slide-item">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-8">
+                        <div class="slide-text">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus, amet odio consequuntur, repellendus nobis dolor. Natus fugiat fuga necessitatibus dolorum, neque </p>
+                            <a href="" class="boxed-btn">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="single-slide-item slide-2">
+                <div class="container">
+                    <div class="row">
+                    <div class="col-md-8">
+                        <div class="slide-text">
+                            <h2>Lorem ipsum dolor sit amet 2</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis temporibus, amet odio consequuntur, repellendus nobis dolor. Natus fugiat fuga necessitatibus dolorum, neque </p>
+                            <a href="" class="boxed-btn">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+style.css
+------------------
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.single-slide-item{background-image: url(../img/birdsofprey6.jpg)}
+.single-slide-item.slide-2{background-image: url(../img/w.jpg)}
+
+
+.logo img {
+  width: ;
+  max-width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.logo a {
+  color: #333;
+}
+.logo span {
+  font-size: 80%;
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  /*! margin-left: 112px; */
+  padding-left: 72px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.right-contact-box {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+  /*! padding-top: 0px; */
+  margin-top: 15px;
+  margin-left: 40px;
+}
+.right-contact-box a {
+  color: #333;
+}
+.right-contact-box i.fa {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 30px;
+}
+.header-area {
+  padding: 25px 0;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.single-slide-item {
+  padding-top: 200px;
+  padding-bottom: 120px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+
+
+.slide-text {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  padding-left: 75px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.slide-text:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  content: "";
+  opacity: .3;
+  z-index: -1;
+}
+.boxed-btn {
+  color: #fff;
+  background: orange;
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+.slide-text .boxed-btn {
+  margin-top: 25px;
+}
+
+
+.homepage-slides .owl-nav div {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  font-size: 50px;
+  line-height: 60px;
+  margin-top: -30px;
+  opacity: 0;
+  transition: .3s;
+}
+.homepage-slides .owl-nav div.owl-next {
+  left: auto;
+  right: 50px;
+}
+.homepage-slides:hover .owl-nav div {
+  opacity: .5;
+}
+
+
+.homepage-slides .owl-dots div {
+  display: inline-block;
+  background: #fff;
+  height: 15px;
+  width: 15px;
+    margin-left:10px;
+  border-radius: 50px;}
+.homepage-slides .owl-dots div.active {
+  background: violet;
+}
+.homepage-slides .owl-dots {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  bottom: 30px;
+  width: 100%;
+}
+
+main.js
+------------
+(function($){
+	"use strict";
+	jQuery(document).ready(function($){
+		$(".homepage-slides").owlCarousel({
+			items: 1,
+			dots: true,
+			nav: true,
+			autoplay: true,
+			navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+			loop: true,
+			animateOut: 'fadeOut'
+		});
+	});
+	jQuery(window).load(function(){
+		
+	});
+}(jQuery));
+
+
