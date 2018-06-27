@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Class-42</title>
+
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/style.css" rel="stylesheet">
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h2>our Products</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="single-product-box">
+                            <div class="product-image-wrap">
+                                <div class="product-image-wrpa-tablecell">
+                                    <img src="assets/img/dinner.png">
+                                </div>
+                            </div>
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p class="product-price">$14,999.00</p>
+                            
+                            <div class="prodect-hover-links">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <a href=""><i class="fa fa-heart-o"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                    <div class="col-md-4 text-right">
+                                        <a href="" class="bordered-link"><i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-product-box">
+                            <div class="product-image-wrap">
+                                <div class="product-image-wrpa-tablecell">
+                                    <img src="assets/img/dinner.png">
+                                </div>
+                            </div>
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p class="product-price">$14,999.00</p>
+                            
+                            <div class="prodect-hover-links">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <a href=""><i class="fa fa-heart-0"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart-0"></i></a>
+                                    </div>
+                                    <div class="col-md-4 text-right">
+                                        <a href="" class="bordered-link"><i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="single-product-box">
+                            <div class="product-image-wrap">
+                                <div class="product-image-wrpa-tablecell">
+                                    <img src="assets/img/dinner.png">
+                                </div>
+                            </div>
+                            <h4>Lorem ipsum dolor sit.</h4>
+                            <p class="product-price">$14,999.00</p>
+                            
+                            <div class="prodect-hover-links">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <a href=""><i class="fa fa-heart-o"></i></a>
+                                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                                    </div>
+                                    <div class="col-md-4 text-right">
+                                        <a href="" class="bordered-link"><i class="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-title {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.product-image-wrap {
+  background: #f1f1f1;
+  display: table;
+  width: 100%;
+  text-align: center;
+  padding: 22px;
+  height: 320px;
+  margin-bottom: 32px;
+}
+.product-image-wrpa-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-product-box {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+.single-product-box h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.product-price {
+  font-size: 30px;
+  color: red;
+  font-weight: 700;
+}
+.single-product-box:after {
+  background: #3b3b3b;
+  position: absolute;
+  height: 110%;
+  width: 100%;
+  top: -10%;
+  content: "";
+  left: 0;
+  z-index: -1;
+}
+.prodect-hover-links {
+  position: absolute;
+  /*! height: 100%; */
+  width: 100%;
+  top: -13px;
+  left: 0;
+  z-index: 2;
+  text-align: left;
+  padding: 0px 17px;
+}
+.prodect-hover-links a {
+  color: #878787;
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  width: 45px;
+  font-size: 16px;
+  line-height: 46px;
+}
+.prodect-hover-links a.bordered-link {
+  border: 2px solid red;
+  width: 50px;
+}
